@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Report {
+  id        Int      @id @default(autoincrement())
+  filename  String
+  fileUrl   String
+  summary   Json     // Stores trends, outliers, recommendations
+  createdAt DateTime @default(now())
+
+  @@index([createdAt(sort: Desc)])
+}

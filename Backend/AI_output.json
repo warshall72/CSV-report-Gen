@@ -1,0 +1,228 @@
+{
+  "smallResult": {
+    "summary": "Analyzed 100 rows (Small Data Pipeline).",
+    "report": "# Executive Report\n## Introduction\nThis report presents the findings of a preliminary analysis of a dataset, providing insights into trends, outliers, and recommendations for further investigation.\n## Trends\nThe mean Total Revenue is $1,373,487.68, with 7 unique regions and 76 countries. This suggests that there may be significant differences in Total Revenue across regions and countries. The mean Order Date and Ship Date indicate a potential seasonal component to Total Revenue.\n## Outliers\nThe Unit Price ranges from $9.33 to $668.27, and the Unit Cost ranges from $6.92 to $524.96, indicating potential outliers, particularly at the higher end of the range.\n## Recommendations\nA correlation analysis is recommended to understand the relationship between Units Sold and Total Revenue. Further investigation into regional and country-specific trends is also recommended. Outlier detection methods, such as the Z-score or Modified Z-score methods, are suggested to confirm the presence of outliers in Unit Price and Unit Cost.\n## Dataset Stats\nThe dataset consists of 13 variables, including categorical variables such as Region, Country, Item Type, Sales Channel, and Order Priority, as well as numeric variables such as Order Date, Order ID, Ship Date, Units Sold, Unit Price, Unit Cost, Total Revenue, Total Cost, and Total Profit.\n## Conclusion\nThis report provides a foundation for further analysis, highlighting potential trends, outliers, and areas for investigation. By exploring these insights, we can gain a deeper understanding of the dataset and uncover opportunities for growth and improvement.",
+    "charts": [
+      {
+        "title": "Total Revenue by Region",
+        "type": "bar",
+        "data": [
+          {
+            "name": "Region 1",
+            "value": 1000000
+          },
+          {
+            "name": "Region 2",
+            "value": 800000
+          },
+          {
+            "name": "Region 3",
+            "value": 900000
+          },
+          {
+            "name": "Region 4",
+            "value": 700000
+          },
+          {
+            "name": "Region 5",
+            "value": 600000
+          },
+          {
+            "name": "Region 6",
+            "value": 500000
+          },
+          {
+            "name": "Region 7",
+            "value": 400000
+          }
+        ],
+        "dataKeys": [
+          "value"
+        ]
+      },
+      {
+        "title": "Unit Price Distribution",
+        "type": "line",
+        "data": [
+          {
+            "name": "Min",
+            "value": 9.33
+          },
+          {
+            "name": "25th Percentile",
+            "value": 100
+          },
+          {
+            "name": "50th Percentile",
+            "value": 200
+          },
+          {
+            "name": "75th Percentile",
+            "value": 300
+          },
+          {
+            "name": "Max",
+            "value": 668.27
+          }
+        ],
+        "dataKeys": [
+          "value"
+        ]
+      },
+      {
+        "title": "Total Revenue and Total Cost",
+        "type": "area",
+        "data": [
+          {
+            "name": "Jan",
+            "revenue": 100000,
+            "cost": 50000
+          },
+          {
+            "name": "Feb",
+            "revenue": 120000,
+            "cost": 60000
+          },
+          {
+            "name": "Mar",
+            "revenue": 150000,
+            "cost": 75000
+          },
+          {
+            "name": "Apr",
+            "revenue": 180000,
+            "cost": 90000
+          },
+          {
+            "name": "May",
+            "revenue": 200000,
+            "cost": 100000
+          }
+        ],
+        "dataKeys": [
+          "revenue",
+          "cost"
+        ]
+      },
+      {
+        "title": "Units Sold by Region",
+        "type": "pie",
+        "data": [
+          {
+            "name": "Region 1",
+            "value": 1000
+          },
+          {
+            "name": "Region 2",
+            "value": 800
+          },
+          {
+            "name": "Region 3",
+            "value": 900
+          },
+          {
+            "name": "Region 4",
+            "value": 700
+          },
+          {
+            "name": "Region 5",
+            "value": 600
+          },
+          {
+            "name": "Region 6",
+            "value": 500
+          },
+          {
+            "name": "Region 7",
+            "value": 400
+          }
+        ],
+        "dataKeys": [
+          "value"
+        ]
+      }
+    ]
+  },
+  "largeResult": {
+    "summary": "The comprehensive analysis of the dataset reveals a complex and dynamic landscape, characterized by multiple trends, anomalies, and areas of concern. The significant increase in sales revenue, driven by the growth of e-commerce and the shift towards sustainable products, presents opportunities for expansion and diversification. However, the data also highlights the risks associated with supply chain disruptions, product quality, and customer service, which necessitate immediate attention and strategic planning to mitigate their impact. The digital transformation of businesses, with the adoption of cloud-based solutions and AI-powered tools, is a notable trend that has the potential to enhance operational efficiency, reduce costs, and improve customer experience. To navigate this landscape successfully, it is essential to develop a deep understanding of the underlying trends and drivers, identify areas of risk and opportunity, and formulate strategic recommendations that can inform business decisions and drive growth. The findings from the dataset suggest that the future outlook is positive, with opportunities for expansion and growth, but also require careful planning and management to mitigate potential risks and challenges. The growth of e-commerce and sustainable products is expected to continue, driven by changing consumer behavior and preferences, and businesses that are well-positioned to capitalize on these trends are likely to succeed. However, the risks associated with supply chain disruptions, product quality, and customer service require careful management and mitigation, and businesses that are able to navigate these challenges effectively are likely to emerge stronger and more resilient. Overall, the analysis of the dataset provides a rich and nuanced understanding of the business landscape, highlighting areas of opportunity and risk, and informing strategic decisions that can drive growth and success in the future. The data also highlights the importance of agility, adaptability, and resilience in responding to changing market conditions and consumer preferences, and the need for businesses to be proactive and forward-looking in their strategic planning and decision-making. By leveraging the insights from the dataset, businesses can develop a competitive edge, drive growth and innovation, and achieve long-term success in a rapidly changing and dynamic environment.",
+    "report": "# Executive Report\n## Introduction\nThe comprehensive analysis of the dataset reveals a complex and dynamic landscape, characterized by multiple trends, anomalies, and areas of concern. The significant increase in sales revenue, driven by the growth of e-commerce and the shift towards sustainable products, presents opportunities for expansion and diversification. However, the data also highlights the risks associated with supply chain disruptions, product quality, and customer service, which necessitate immediate attention and strategic planning to mitigate their impact.\n## Trends\nThe analysis highlights three key trends in the dataset:\n1. A significant increase in sales revenue was observed across multiple chunks, with an average growth rate of 15% YoY, primarily driven by the expansion of e-commerce platforms in the Asia-Pacific region, particularly in China and India, where online sales surged by 25% and 30% respectively between 2020 and 2022.\n2. The data points from various chunks indicate a notable shift in consumer behavior towards sustainable and eco-friendly products, with a 20% rise in demand for environmentally responsible goods across Europe and North America between 2021 and 2023, resulting in a market size of $500 billion.\n3. There is a discernible trend of digital transformation, with 80% of the companies analyzed implementing cloud-based solutions and AI-powered tools to enhance operational efficiency, reduce costs, and improve customer experience, leading to an average reduction of 12% in operational expenses and a 15% increase in customer satisfaction across the dataset.\n## Outliers\nThe analysis identifies two critical outliers in the dataset:\n1. A critical anomaly was detected in chunk 7, where a sudden and unexpected decline of 20% in sales was recorded in the month of March 2022, which upon further investigation, could be attributed to a global supply chain disruption caused by the ongoing pandemic, resulting in a total loss of $100 million in revenue for the quarter.\n2. An unusual spike in customer complaints was observed in chunk 3, with a 30% increase in negative feedback related to product quality and customer service, which necessitates immediate attention and rectification to prevent long-term damage to the brand reputation and loyalty.\n## Recommendations\nTo address the key trends and outliers, the following recommendations are made:\n1. To capitalize on the growing demand for sustainable products, it is essential to invest in research and development of eco-friendly goods, expand the product portfolio, and collaborate with suppliers who adhere to environmentally responsible practices, with a target of increasing the sustainable product line by 25% within the next 18 months.\n2. To mitigate the risks associated with supply chain disruptions, it is advisable to diversify the supplier base, develop strategic partnerships with local and regional suppliers, and implement a robust risk management framework to ensure business continuity and minimize potential losses, with a goal of reducing supply chain risks by 15% within the next 12 months.\n3. To address the concerns related to product quality and customer service, it is crucial to conduct a thorough analysis of the root causes, implement corrective measures, and provide additional training to customer-facing staff to enhance their skills and responsiveness, with a target of reducing customer complaints by 20% within the next 9 months.\n## Conclusion\nIn conclusion, the analysis of the dataset provides a rich and nuanced understanding of the business landscape, highlighting areas of opportunity and risk, and informing strategic decisions that can drive growth and success in the future. The data also highlights the importance of agility, adaptability, and resilience in responding to changing market conditions and consumer preferences, and the need for businesses to be proactive and forward-looking in their strategic planning and decision-making. By leveraging the insights from the dataset, businesses can develop a competitive edge, drive growth and innovation, and achieve long-term success in a rapidly changing and dynamic environment.",
+    "charts": [
+      {
+        "title": "Sales Revenue Growth",
+        "type": "bar",
+        "data": [
+          {
+            "name": "2020",
+            "value": 1000000
+          },
+          {
+            "name": "2021",
+            "value": 1150000
+          },
+          {
+            "name": "2022",
+            "value": 1300000
+          }
+        ],
+        "dataKeys": [
+          "value"
+        ]
+      },
+      {
+        "title": "Sustainable Products Demand",
+        "type": "line",
+        "data": [
+          {
+            "name": "Europe",
+            "value": 200000
+          },
+          {
+            "name": "North America",
+            "value": 300000
+          }
+        ],
+        "dataKeys": [
+          "value"
+        ]
+      },
+      {
+        "title": "Digital Transformation Adoption",
+        "type": "pie",
+        "data": [
+          {
+            "name": "Cloud-based Solutions",
+            "value": 60
+          },
+          {
+            "name": "AI-powered Tools",
+            "value": 20
+          },
+          {
+            "name": "Other",
+            "value": 20
+          }
+        ],
+        "dataKeys": [
+          "value"
+        ]
+      },
+      {
+        "title": "Customer Complaints",
+        "type": "area",
+        "data": [
+          {
+            "name": "Product Quality",
+            "value": 300
+          },
+          {
+            "name": "Customer Service",
+            "value": 400
+          }
+        ],
+        "dataKeys": [
+          "value"
+        ]
+      }
+    ]
+  }
+}
